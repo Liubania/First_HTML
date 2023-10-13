@@ -1,0 +1,45 @@
+
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>MY PAGE</title>
+  <style>
+    body {
+      background: white;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+  <p style="font-size: 1.6em; font-family: 'Impact', fantasy;">
+    <strong>Усім привіт! Приємно познайомитися! </strong>
+  </p>
+  <br>
+  <p class="spaced-text">
+    <style>
+      .spaced-text {
+        margin-left: 425px;
+        font-size: 2.5em;
+        font-family: 'Impact', fantasy;
+      }
+    </style>
+    Мене звати <span style="color: red;">
+      <a href="https://www.linkedin.com/in/liubov-savinykh-paltseva-b11038238/" target="_blank">Любов Савіних-Пальцева</a>
+    </span>
+  </p>
+  <p style="text-align: right; font-size: 1.5em; font-family: 'Impact', fantasy;">Я студентка з Ясс <span style="color: blue;">Румунія-2023</span> у группі SoftServe IT Academy&green;</p>
+  <hr>
+  <p style="font-family: 'Georgia', serif;">
+    За <a href="https://softserve.academy/mod/resource/view.php?id=2517" target="_blank">цим посиланням </a>, ви можете знайти цікаву інформацію <b>про мову розмітки  HTML5 </b> та <b>мову стилів CSS3.</b>
+  </p>
+   <p style="font-family: 'Georgia', serif;">А цю картинку я побачила на просторах інтернету та дуже хочу поділитися.</p>
+  <a href="https://i.makeagif.com/media/11-16-2015/tTpwN7.mp4" target="_blank">
+    <img src="https://i.makeagif.com/media/11-16-2015/tTpwN7.mp4" alt="Description of the image" style="display: block; margin: auto;">
+  </a>
+  <br>
+  <p style="font-family: 'Georgia', serif;">Вона <b>клікабельна </b> і якщо по ній тицьнути, то можливо перейти на сайт, звідки її було взято.</p>
+  <hr></p>
+  <hr>
+</body>
+</html>
