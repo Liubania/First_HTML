@@ -3,10 +3,9 @@
     <head>
         <meta charset="utf-8">
         <title>Sample website</title>
-                <style>
+        <style>
           body 
-           background: white;
-           color: rgb(42, 14, 136);
+          background: white;
         </style>
     </head>
     <body>
