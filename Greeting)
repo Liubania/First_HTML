@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <title>Sample website</title>
                 <style>
-          body
+          body 
            background: white;
            color: rgb(42, 14, 136);
         </style>
