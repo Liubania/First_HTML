@@ -12,17 +12,17 @@
     <body>
         <p><h1>Усім привіт! Приємно познайомитися! </h1>
         </p>
-        <p>Мене звати <span style="color: rgb(40, 3, 127);">
-            <a href="https://www.linkedin.com/in/liubov-savinykh-paltseva-b11038238/" target="_blank">Любов Савіних-Пальцева</a>
+        <p>Мене звати <a href="https://www.linkedin.com/in/liubov-savinykh-paltseva-b11038238/" target="_blank">Любов Савіних-Пальцева</a>
         </p>
-        <p>Я студентка з Ясс моя група Румунія-2023 </p>
-        <p> <a href="https://softserve.academy/mod/resource/view.php?id=2517" target="_blank">за цим посиланням </a>, ви можете знайти цікаву інформацію <b> про мову розмітки  HTML5 </b> та <b> мову стилів CSS3.</b>
+        <p>Я студентка з Ясс моя група Румунія-2023, </p>
+        <p> <a href="https://softserve.academy/mod/resource/view.php?id=2517" target="_blank"> за цим посиланням </a>
+           ви можете знайти цікаву інформацію <b> про мову розмітки  HTML5 </b> та <b> мову стилів CSS3.</b>
         </p>
         <p>цю картинку я побачила на просторах інтернету та дуже хочу поділитися.</p>
-        <a href="https://i.makeagif.com/media/11-16-2015/tTpwN7.mp4" target="_blank">
-          <img src="https://i.makeagif.com/media/11-16-2015/tTpwN7.mp4" alt="Description of the image" style="display: block; margin: auto;">
-        </a>
+          <a href="https://i.makeagif.com/media/11-16-2015/tTpwN7.mp4" target="_blank">
+            <img src="https://i.makeagif.com/media/11-16-2015/tTpwN7.mp4" alt="Description of the image" style="display: block; margin: auto;">
+          </a>
         <br>
         <p>Вона <b>клікабельна </b>якщо по ній тицьнути, то можливо перейти на сайт, звідки її було взято.</p>
-      </body>
+    </body>
 </html> 
