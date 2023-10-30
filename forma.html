@@ -3,39 +3,45 @@
 <head>
 <meta charset="utf-8"><form action="some_script">
 <body> 
-   <fieldset wight="50%"Hight="60%">
-   <legend> My personal data>
-      <label for="fname">First parents name: </label>
-     <input type="text"/><br>
+   <fieldset wight="50%" height="60%">
+   <legend> My personal data for school application>
+      <fieldset>
+         <p> Parants information </p>
+            <label for="fname">First parents name: </label>
+     <input type="text" id="first_parents_name" name="first_parents_name"/><br>
       <br>
-   <label for="lname">Last parents name: </label>
-      <input type="text" autofocus="autofocus"/><br>
+           <label for="lname">Last parents name: </label>
+      <input type="text" id="last_parents_name" name="last_parents_name" autofocus="autofocus"/><br>
        <br>
-  <label for="birthday">Birthday of one of parents:</label>
-      <input type="date" id="birthday" name="birthday"/><br>
+           <label for="birthday"> parents birthday:</label>
+      <input type="date" id="parents_birthday" name="parents_birthday"/><br>
       <br>
-   <label for="lname">First name of child: </label>
-      <input type="text" autofocus="autofocus"/><br>
-      <br>
-   <label for="lname">Last name of child: </label>
-      <input type="text" autofocus="autofocus"/><br>
-      <br>
-  <label for="birthday">Birthday of child:</label>
-      <input type="date" id="birthday" name="birthday"/><br>
-      <br>
-   <label for="email">Email: </label>
+           <label for="email">Email: </label>
       <input type="text" id="email"/><br> 
       <br>
-   <label for="address"> Address: </label>
-      <input type="text" id="address"/><br>
+            <label for="address"> Address: </label>
+      <input type="text" id="address" name="address"/><br>
       <br>
-   <label for="tel"> Tel: </label>
-      <input type="text" id="tel"/><br>
+            <label for="tel"> Tel: </label>
+      <input type="text" id="tel" name="tel"/><br>
       <br>
-</fieldset>
+      </fieldset>
+       <fieldset>
+            <p> Child information </p>
+            <label for="lname">First child name: </label>
+      <input type="text" autofocus="autofocus" id="first_child_name" name="first_child_name"/><br>
+      <br>
+            <label for="lname">Last child name: </label>
+      <input type="text" id="last_child_name" name="last_child_name"autofocus="autofocus"/><br>
+      <br>
+           <label for="birthday">Child birthday:</label>
+      <input type="date" id="child_birthday" name="child_birthday"/><br>
+      <br>
+      </fieldset>
+ </fieldset>
 <fieldset>       
-        <input type="submit" value="Submit">       
-        <input type="reset"  value="Reset">    
+      <input type="submit" value="Submit"> <br><br>     
+      <input type="reset"  value="Reset"> <br><br>  
   </fieldset>
  </form>
 </body>
