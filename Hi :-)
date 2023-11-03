@@ -13,7 +13,7 @@
 </head>
 <body>
   <p style="font-size: 1.6em; font-family: 'Impact', fantasy;">
-    <strong>Усім привіт! Приємно познайомитися! </strong>
+    <strong> Усім привіт! Приємно познайомитися! </strong>
   </p>
   <br>
   <p class="spaced-text">
@@ -38,7 +38,7 @@
     <img src="https://i.makeagif.com/media/11-16-2015/tTpwN7.mp4" alt="Description of the image" style="display: block; margin: auto;">
   </a>
   <br>
-  <p style="font-family: 'Georgia', serif;">Вона <b>клікабельна </b> і якщо по ній тицьнути, то можливо перейти на сайт, звідки її було взято.</p>
+  <p style="font-family: 'Georgia', serif;"> Вона <b>клікабельна </b> і якщо по ній тицьнути, то можливо перейти на сайт, звідки її було взято.</p>
   <hr></p>
   <hr>
 </body>
