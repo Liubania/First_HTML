@@ -9,3 +9,11 @@ div {
   border-width: 12px;
   border-color: navy;
     }
+h2 {
+  font-family: monserat;
+  font-color: indigo;
+  }
+p {
+  font-family: monserat;
+  font-color: darkslategray; 
+}
