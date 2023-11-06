@@ -1,11 +1,11 @@
 div {
-  width: 200px;
-  height: 150px;
+  width: 600px;
+  height: 450px;
   background-color: coral;
   border-left-style: dotted;
   border-right-style: double;
   border-top-style: dashed;
   border-bottom-style: groove;
-  border-width: 10px;
+  border-width: 7px;
   border-color: chartreuse;
     }
