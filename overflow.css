@@ -1,6 +1,7 @@
 div {
   width: 1500px;
   height: 500px;
+  font-family: 'Montserrat', sans-serif;
   background-color: aquamarine;
   border-left-style: dotted;
   border-right-style:  dotted;
@@ -9,12 +10,5 @@ div {
   border-width: 12px;
   border-color: navy;
   overflow: scroll;
-    }
-h2 {
-  font-family: 'Montserrat', sans-serif;
   font-color: indigo;
-  }
-p {
-  font-family: 'Montserrat', sans-serif;
-  font-color: darkslategray; 
-}
+    }
