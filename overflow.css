@@ -11,10 +11,10 @@ div {
   overflow: scroll;
     }
 h2 {
-  font-family: monserat;
+  font-family: 'Montserrat', sans-serif;
   font-color: indigo;
   }
 p {
-  font-family: monserat;
+  font-family: 'Montserrat', sans-serif;
   font-color: darkslategray; 
 }
