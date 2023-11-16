@@ -1,28 +1,28 @@
 body {
-      font-family: 'Montserrat', sans-serif;
-      background-color: #98FB98;
+      font-family: 'Tahoma', sans-serif;
+      background-color: aqua;
       border: 5px solid;
-      border-style: dotted;
-      border-color: #317256;
+      border-style: ridge;
+      border-color: ;
      }
    h1 {
-      color: #2e8b57; 
+      color: #3366ff; 
       stule: bold;
       margin: 10px;
       padding: 19px;
       }
    h2 {
-      color: #297d4e;
+      color: #009999;
       margin: 8px;
       padding: 16px;
       }
    h3 {
-      color: #247046;
+      color: #006666;
       margin: 6px;
       padding: 12px;
       }
-   p {
-      color: #317256;
+   h4 {
+      color: #004d4d;
       margin: 4px;
       padding: 8px;
      }
@@ -40,8 +40,4 @@ article {
       display: inbox;
       margin: 8px;
       padding: 16px;
-}
-button {
-      margin: 10px;
-      padding: 19px;
 }
