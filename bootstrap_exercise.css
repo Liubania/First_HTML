@@ -1,5 +1,6 @@
 header {
-  font-family: 'Tahoma', sans-serif;
+      display: inbox;
+      font-family: 'Tahoma', sans-serif;
       background-color: Aquamarine;
       border: 5px solid;
       border-style: ridge;
