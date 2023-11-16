@@ -2,6 +2,7 @@ body {
       font-family: 'Montserrat', sans-serif;
       background-color: #98FB98;
       border: 1px solid;
+      border-style: dotted;
       border-color: #317256;
       h1-color: #2e8b57;
       h2-color: #297d4e;
