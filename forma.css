@@ -1,15 +1,18 @@
 body {
       display: inbox;
       background-color: #E6E6FA;
-      fieldset: widht: 60% height: 50%; 
-      border: 1px border-color="#8B0000 #BBB #BBB #F3F3F3;
+fieldset{ 
+      widht: 60%;
+      height: 50%; 
+      border: 1px;
+      border-color="#8B0000 #BBB #BBB #F3F3F3;
       }
-      h1 {      
+ h1 {      
       color: #000080;
       }
-      h2 {
+ h2 {
       color: #080000;
       }
-      p {
+ p {
       color: #2F4F4F;
          }
