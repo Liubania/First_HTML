@@ -1,47 +1,43 @@
 body {
-      font-family: 'Montserrat', sans-serif;
-      background-color: #98FB98;
+      font-family: 'Tahoma', sans-serif;
+      background-color: Aqua;
       border: 5px solid;
-      border-style: dotted;
-      border-color: #317256;
+      border-style: ridge;
+      border-color: DarkBlue;
      }
    h1 {
-      color: #2e8b57; 
+      color: RoyalBlue; 
       stule: bold;
       margin: 10px;
       padding: 19px;
       }
    h2 {
-      color: #297d4e;
+      color: DodgerBlue;
       margin: 8px;
       padding: 16px;
       }
    h3 {
-      color: #247046;
+      color: MediumBlue;
       margin: 6px;
       padding: 12px;
       }
-   p {
-      color: #317256;
+   h4 {
+      color: MidnightBlue;
       margin: 4px;
       padding: 8px;
      }
  fieldset {
       display: inbox;
-      background-color: #e0fde0;
+      background-color: LightSteelBlue;
       border: 1px solid;
-      border-color: #548c54;
+      border-color: SlateGray;
       margin: 10px;
       padding: 19px;
       widht: 100%;
       height: 100%; 
      }
 article {
-      display: inbox;
+      display: inline;
       margin: 8px;
       padding: 16px;
-}
-button {
-      margin: 10px;
-      padding: 19px;
 }
