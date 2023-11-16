@@ -1,9 +1,16 @@
+header { 
+      font-family: 'Tahoma', sans-serif;
+      background-color: #ccffff;
+      border: 5px solid;
+      border-style: ridge;
+      border-color: #002699;
+}
 body {
       font-family: 'Tahoma', sans-serif;
       background-color: aqua;
       border: 5px solid;
       border-style: ridge;
-      border-color: ;
+      border-color: #7300e6;
      }
    h1 {
       color: #3366ff; 
