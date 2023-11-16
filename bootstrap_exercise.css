@@ -8,16 +8,24 @@ body {
       padding: 19px;
     }
    h1 {
-      color: #2e8b57;
+      color: #2e8b57; 
+      margin: 10px;
+      padding: 19px;
       }
    h2 {
       color: #297d4e;
+       margin: 8px;
+      padding: 16px;
       }
    h3 {
       color: #247046;
+      margin: 6px;
+      padding: 12px;
       }
    p {
       color: #317256;
+      margin: 4px;
+      padding: 8px;
      }
  fieldset {
       display: inbox;
