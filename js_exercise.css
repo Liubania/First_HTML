@@ -1,16 +1,12 @@
-div {
+body {
   width: 1200px;
   height: 500px;
   font-family: 'Montserrat', sans-serif;
   font-color: IndianRed;
   background-color: Bisque;
-  border-left-style: dotted;
-  border-right-style:  dotted;
-  border-top-style: dashed;
-  border-bottom-style: dashed;
+  border-style: dashed;
   border-width: 12px;
-  border-color: navy;
+  border-color: LightCoral;
   margin: 15px;
   padding: 10px;
-  overflow: scroll;
       }
