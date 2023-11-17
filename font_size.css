@@ -12,6 +12,8 @@ body {
       border-style: ridge;
       border-color: #7300e6;
       overflow: scroll;
+      width: 100%;
+      hight:50%;
      }
 footer{
       display: inbox;
