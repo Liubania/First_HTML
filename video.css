@@ -9,4 +9,5 @@ fieldset {
       height: 100%; 
       border: 3px;
       border-color: #4B0082;
+      border-style: inset;
       }  
