@@ -3,12 +3,14 @@ body {
       font-color: DarkSlateBlue;
       display: inbox;
       background-color: #E6E6FA;
+      margin: 10px;
+      padding: 10px;
      }
 fieldset{ 
       widht: 60%;
       height: 50%; 
       border: 1px;
-      border-color="#8B0000 #BBB #BBB #F3F3F3;
+      border-color: #8B0000 #BBB #BBB #F3F3F3;
       }
  h1 {      
       color: #000080;
