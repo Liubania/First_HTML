@@ -1,9 +1,9 @@
 div {
-  width: 1500px;
+  width: 1200px;
   height: 500px;
   font-family: 'Montserrat', sans-serif;
-  font-color: indigo;
-  background-color: aquamarine;
+  font-color: IndianRed;
+  background-color: Bisque;
   border-left-style: dotted;
   border-right-style:  dotted;
   border-top-style: dashed;
