@@ -2,6 +2,8 @@ header {
       display: inbox;
       font-family: 'Tahoma', sans-serif;
       background-color: Aquamarine;
+      widht: 100%;
+      height: 30%; 
       border: 5px solid;
       border-style: ridge;
       border-color: DarkBlue;
