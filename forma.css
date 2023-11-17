@@ -1,6 +1,9 @@
 body {
+      font-family: 'Tahoma', sans-serif;
+      font-color: DarkSlateBlue;
       display: inbox;
       background-color: #E6E6FA;
+     }
 fieldset{ 
       widht: 60%;
       height: 50%; 
