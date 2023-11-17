@@ -12,6 +12,9 @@ body {
       border-style: ridge;
       border-color: #7300e6;
      }
+footer{
+      display: inbox;
+}
    h1 {
       color: #3366ff; 
       style: bold;
