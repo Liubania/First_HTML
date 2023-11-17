@@ -1,9 +1,12 @@
 body {
       font-family: 'Montserrat', sans-serif;
       background-color: #e5e5e5;
-      border: 3px solid;
+      border: 5px solid;
       border-color: #8B0000 #8B0000 #8B0000 #000080;
-      }
+      border-style: dotted;
+      margin: 10px;
+      padding: 10px;
+     }
 a: link {
       color: #4682B4;
       }
@@ -17,7 +20,7 @@ p {
       color: #800000
     }
 .toolbar li {
-            display: inline;
+            display: inbox;
             background-color: #EEE;
             border: 1px solid;
             border-color: #F3F3F3 #BBB #BBB #F3F3F3;
