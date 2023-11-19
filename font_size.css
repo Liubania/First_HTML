@@ -1,4 +1,5 @@
 header { 
+      display: inbox;
       font-family: 'Tahoma', sans-serif;
       background-color: #ccffff;
       border: 5px solid;
@@ -11,8 +12,7 @@ body {
       border: 5px solid;
       border-style: ridge;
       border-color: #7300e6;
-      overflow: scroll;
-      width: 100%;
+      width: 90%;
       hight:50%;
      }
 footer{
@@ -21,23 +21,23 @@ footer{
    h1 {
       color: #3366ff; 
       style: bold;
-      margin: 10px;
-      padding: 19px;
+      margin: 7px;
+      padding: 7px;
       }
    h2 {
       color: #009999;
-      margin: 8px;
-      padding: 16px;
+      margin: 6px;
+      padding: 6px;
       }
    h3 {
       color: #006666;
-      margin: 6px;
-      padding: 12px;
+      margin: 5px;
+      padding: 5px;
       }
    h4 {
       color: #004d4d;
       margin: 4px;
-      padding: 8px;
+      padding: 4px;
      }
  fieldset {
       display: inbox;
@@ -49,6 +49,9 @@ footer{
       widht: 90%;
       height: 50%; 
      }
+box {
+      display: inbox; 
+}
 article {
       display: inbox;
       margin: 8px;
