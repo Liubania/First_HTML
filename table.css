@@ -1,6 +1,6 @@
 header {
   widht: 700px;
-  height: 500px;
+  height: 50px;
   margin: 10px;
   padding: 10px;
   border: 1px solid CornflowerBlue;
@@ -8,10 +8,12 @@ header {
   font-color: CornflowerBlue;
 }
 body {
-    screen: inbox;
     margin: 10px;
     padding: 10px;
     background: LemonChiffon;
     font-family: 'Tahoma', sans-serif;
     font-color: CornflowerBlue;
   }
+box {
+    screen: inbox;
+}
