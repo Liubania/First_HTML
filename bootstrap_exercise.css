@@ -1,9 +1,8 @@
 header {
-      display: inbox;
       font-family: 'Tahoma', sans-serif;
       background-color: Aquamarine;
       widht: 100%;
-      hight: 30%; 
+      hight: 25%; 
       border: 5px solid;
       border-style: ridge;
       border-color: DarkBlue;
@@ -54,6 +53,6 @@ article {
       padding: 16px;
 }
 footer {
-      margin: 20px;
-      padding: 20px;  
+      margin: 10px;
+      padding: 10px;  
 }
