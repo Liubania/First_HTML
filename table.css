@@ -1,0 +1,13 @@
+body {
+    background: LemonChiffon;
+    font-family: Tahoma;
+    font-color: CornflowerBlue;
+    border-color: CornflowerBlue;
+    border-size: 5px;
+    border-style: line;
+}
+article {
+  screen: inbox;
+  margin: 10px;
+  padding: 10px:
+}
