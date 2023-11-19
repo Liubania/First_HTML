@@ -5,12 +5,10 @@ body {
     font-family: 'Tahoma', sans-serif;
     font-color: CornflowerBlue;
 }
-table {    
-    border-color: CornflowerBlue;
-    border-size: 5px;
-    border-style: line;
+table, th {
+  border: 1px solid black;
 }
-article {
+box {
   screen: inbox;
   margin: 10px;
   padding: 10px:
