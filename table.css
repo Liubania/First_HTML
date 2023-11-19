@@ -3,13 +3,16 @@ header {
   height: 50px;
   margin: 10px;
   padding: 10px;
-  border: 1px solid CornflowerBlue;
+  border: 1px solid; 
+  border-color:  CornflowerBlue;
   font-family: 'Tahoma', sans-serif;
   font-color: CornflowerBlue;
 }
 body {
     margin: 10px;
     padding: 10px;
+    border: 3px solid; 
+    border-color:  CornflowerBlue;
     background: LemonChiffon;
     font-family: 'Tahoma', sans-serif;
     font-color: CornflowerBlue;
