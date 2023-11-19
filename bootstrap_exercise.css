@@ -1,7 +1,7 @@
 header {
       font-family: 'Tahoma', sans-serif;
       background-color: Aquamarine;
-      widht: 100%;
+      widht: 90%;
       hight: 20%; 
       border: 5px solid;
       border-style: ridge;
@@ -48,7 +48,7 @@ body {
       height: 100%; 
      }
 article {
-      display: inline;
+      display: inbox;
       margin: 8px;
       padding: 16px;
 }
@@ -56,3 +56,4 @@ footer {
       margin: 10px;
       padding: 10px;  
 }
+
