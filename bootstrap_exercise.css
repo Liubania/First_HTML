@@ -48,7 +48,7 @@ body {
       height: 100%; 
      }
 article {
-/*       display: inline; */
+      display: inline;
       margin: 8px;
       padding: 16px;
 }
