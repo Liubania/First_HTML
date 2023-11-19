@@ -4,7 +4,7 @@ header {
   margin: 10px;
   padding: 10px;
   border: 1px solid; 
-  border-color:  CornflowerBlue;
+  border-color: CornflowerBlue;
   font-family: 'Tahoma', sans-serif;
   font-color: CornflowerBlue;
 }
@@ -18,7 +18,11 @@ body {
     font-color: CornflowerBlue;
   }
   table, th, td {
-  border: 1px solid;
+    widht: 700px;
+    height: 50px;
+    margin: 10px;
+    padding: 10px;
+    border: 3px solid;
 }
 box {
     display: inbox;
