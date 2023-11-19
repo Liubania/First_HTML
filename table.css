@@ -2,6 +2,10 @@ body {
     background: LemonChiffon;
     font-family: Tahoma;
     font-color: CornflowerBlue;
+}
+table {    
+    margin: 10px;
+    padding: 10px:
     border-color: CornflowerBlue;
     border-size: 5px;
     border-style: line;
