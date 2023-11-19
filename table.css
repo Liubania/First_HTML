@@ -17,6 +17,9 @@ body {
     font-family: 'Tahoma', sans-serif;
     font-color: CornflowerBlue;
   }
+  table, th, td {
+  border: 1px solid;
+}
 box {
     display: inbox;
 }
