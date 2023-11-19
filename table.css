@@ -5,9 +5,11 @@ body {
     font-family: 'Tahoma', sans-serif;
     font-color: CornflowerBlue;
 }
-table, th {
-  border: 1px solid black;
-}
+table, th, td {
+  widht: 700;
+  height: 500;
+  border: 1px solid CornflowerBlue;
+    }
 box {
   screen: inbox;
   margin: 10px;
