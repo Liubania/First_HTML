@@ -1,17 +1,17 @@
+header {
+  widht: 700;
+  height: 500;
+  margin: 10px;
+  padding: 10px:
+  border: 1px solid CornflowerBlue;
+  font-family: 'Tahoma', sans-serif;
+  font-color: CornflowerBlue;
+}
 body {
+    screen: inbox;
     margin: 10px;
     padding: 10px;
     background: LemonChiffon;
     font-family: 'Tahoma', sans-serif;
     font-color: CornflowerBlue;
-}
-table, th, td {
-  widht: 700;
-  height: 500;
-  border: 1px solid CornflowerBlue;
-    }
-box {
-  screen: inbox;
-  margin: 10px;
-  padding: 10px:
-}
+  }
