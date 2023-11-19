@@ -5,6 +5,8 @@ header {
       border: 5px solid;
       border-style: ridge;
       border-color: #002699;
+      width: 85%;
+      height:30%;
 }
 body {
       font-family: 'Tahoma', sans-serif;
@@ -12,8 +14,8 @@ body {
       border: 5px solid;
       border-style: ridge;
       border-color: #7300e6;
-      width: 90%;
-      hight:50%;
+      width: 85%;
+      height:50%;
      }
 footer{
       display: inbox;
