@@ -19,13 +19,13 @@ body {
    h1 {
       color: RoyalBlue; 
       style: bold;
-      margin: 10px;
-      padding: 19px;
+      margin: 3px;
+      padding: 3px;
       }
    h2 {
       color: DodgerBlue;
-      margin: 8px;
-      padding: 16px;
+      margin: 2px;
+      padding: 2px;
       }
    h3 {
       color: MediumBlue;
@@ -48,7 +48,7 @@ body {
       height: 100%; 
      }
 article {
-      display: inline;
+/*       display: inline; */
       margin: 8px;
       padding: 16px;
 }
