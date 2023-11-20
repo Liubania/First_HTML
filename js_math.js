@@ -63,7 +63,7 @@ function check() {
     alert("OK");
   } else {
     alert("YOU'RE WRONG");
-    document.getElementById("nok").style.display = none;
+    document.getElementById("nok").style.display ="block";
   }
 
   // document.getElementById("result").value
