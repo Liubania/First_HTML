@@ -60,7 +60,7 @@ function check() {
   let userAnswer = document.getElementById("result").value;
 
   if (userAnswer == rightAnswer) {
-    // alert("OK")
+    // alert("OK!")
     let mesage = document.getElementById("nok");
     mesage.style.color="green";
   } else {
