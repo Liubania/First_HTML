@@ -6,7 +6,7 @@
             justify-content: center;
         }
 
-        .background-video {
+/*         .background-video {
             position: fixed;
             top: 0;
             left: 0;
@@ -16,7 +16,7 @@
             z-index: -1;
             filter: brightness(65%);
         }
-
+ */
         .container {
             margin-top: 50px;
         }
