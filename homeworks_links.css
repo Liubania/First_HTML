@@ -12,12 +12,18 @@ a: link {
       }
 h1 {
       color: #000080;
+      margin: 20px;
+      padding: 20px;
     }
 h2 {
       color: #8B0000;
+      margin: 10px;
+      padding: 10px;
     }
 h3 {
-      #8B0000
+      color: #8B0000;
+      margin: 5px;
+      padding: 5px;
 }
 p {
       color: #800000;
