@@ -6,7 +6,8 @@
           margin: 10px;
           padding: 10px;
   }
-  body {
+  body { 
+         display: flex;
          background-color: Aquamarine;    
          height: 100vh;
          margin: 10px;
