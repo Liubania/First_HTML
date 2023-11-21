@@ -8,7 +8,8 @@
     body {
       background: beige;
       color: purple;
-    }
+      justify-content: center;
+        }
   </style>
 </head>
 <body>
