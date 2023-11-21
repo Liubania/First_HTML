@@ -16,8 +16,11 @@
          justify-content: center;
          font-family: Tahoma, sans-serif;
         }
+ box { 
+        display: flex;
+ }
 
-       .container {
+  .container {
          margin-top: 50px;
         }
 
@@ -32,11 +35,11 @@
          font-family: Tahoma, sans-serif;
          background: #DFFEF4;
          border-radius: 7px;
-         padding: 8px;
+         padding: 20px;
         }
 
         .btn {
-        margin-bottom: 15px;
+        margin-bottom: 20px;
         }
 h1 {
         font-color: #9586f1;
