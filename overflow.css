@@ -14,3 +14,11 @@ div {
   padding: 10px;
   overflow: scroll;
       }
+box {  
+  background-color: #52A388;
+  border-style: dotted;
+  border-width: 12px;
+  border-color: navy;
+  margin: 15px;
+  padding: 10px;
+  }
