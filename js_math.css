@@ -1,4 +1,6 @@
   header { 
+         align-items: center;
+         justify-content: center;
           background-color: #DFFEF4;
           font-family: Tahoma, sans-serif;
   }
