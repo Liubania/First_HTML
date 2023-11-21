@@ -1,5 +1,5 @@
 body {
-      display: flex;
+      display: inbox;
       justify-content: center;
       font-family: 'Tahoma', sans-serif;
       background-color: Aqua;
@@ -42,6 +42,7 @@ article {
       padding: 7px;
        }
 footer {
+      display: inline;
       margin: 7px;
       padding: 7px;  
        }
