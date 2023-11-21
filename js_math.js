@@ -21,7 +21,7 @@ function check() {
 
   let rightAnswer = undefined;
   switch (action) {
-    case "add":
+    case "sum":
       rightAnswer = Number(a) + Number(b);
       break;
     case "subtract":
@@ -34,14 +34,14 @@ function check() {
       rightAnswer = Number(a) / Number(b);
       break;
     default:
-      rightAnswer = "CHOOSE ACTION";
+      rightAnswer = "Selectați o acțiune matematică";
   }
 
-  // if (action=="add"){
+  // if (action=="sum"){
   //  result=Number (a)+Number (b)
 
   // }
-  // else if (action=="subtract") {
+  // else if (action=="substract") {
   //      result=Number (a)-Number (b)
 
   // }
@@ -54,17 +54,17 @@ function check() {
 
   // }
   // else {
-  //     result="CHOOSE ACTION"
+  //     result="Selectați o acțiune matematică"
   // }
 
   let userAnswer = document.getElementById("result").value;
 
   if (userAnswer == rightAnswer) {
-    // alert("OK!")
+    // alert("Foarte Bine!")
     let mesage = document.getElementById("nok");
     mesage.style.color="green";
   } else {
-    alert("YOU'RE WRONG");
+    alert("Îmi pare rău, vă înșelați!");
     document.getElementById("nok").style.display ="block";
   }
 
