@@ -40,7 +40,7 @@ body {
       padding: 7px;
      }
  fieldset {
-      display: inbox;
+      display: flex;
       background-color: LightSteelBlue;
       border: 1px solid;
       border-color: SlateGray;
