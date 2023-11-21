@@ -53,7 +53,7 @@ footer{
       padding: 19px;
           }
 box {
-      display: inbox; 
+      display: flex; 
 }
 article {
       display: flex;
