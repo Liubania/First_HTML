@@ -10,6 +10,8 @@ header {
       padding: 7px;
       }
 body {
+      display: flex;
+      justify-content: center;
       font-family: 'Tahoma', sans-serif;
       background-color: Aqua;
       border: 5px solid;
