@@ -1,31 +1,47 @@
-        body {
-            background-color: Aquamarine;    
-            height: 100vh;
-            margin: 0;
-            display: inline;
-            align-items: center;
-            justify-content: center;
+  header { 
+          background-color: #DFFEF4;
+          font-family: Tahoma, sans-serif;
+  }
+  body {
+         background-color: Aquamarine;    
+         height: 100vh;
+         margin: 10px;
+         padding: 10px;
+         display: inline;
+         align-items: center;
+         justify-content: center;
         }
 
        .container {
-            margin-top: 50px;
+         margin-top: 50px;
         }
 
         .form-control,
         .form-select,
         .btn,
-        .result {
-            width: 200px;
-            box-sizing: border-box;
-            text-align: center;
-            border: 5px inset #6a5acd;
-            font-family: Baskerville;
-            background: rgba(255, 255, 255, 0.8);
-            border-radius: 7px;
-            padding: 6px;
+       {
+         width: 200px;
+         box-sizing: border-box;
+         text-align: center;
+         border: 5px inset #6a5acd;
+         font-family: Tahoma, sans-serif;
+         background: #DFFEF4;
+         border-radius: 7px;
+         padding: 8px;
         }
 
         .btn {
-            margin-bottom: 15px;
+        margin-bottom: 15px;
         }
-    
+h1 {
+        font-color: #9586f1;
+} 
+h4 {
+        font-color: MediumSlateBlue;
+}     
+h5 {
+        font-color: #6253BE;
+} 
+h6 {
+       font-color:  #4e4298;
+}
