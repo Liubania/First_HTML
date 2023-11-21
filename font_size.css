@@ -53,10 +53,10 @@ footer{
       padding: 19px;
           }
 box {
-      display: flex; 
+      display: inline; 
 }
 article {
-      display: flex;
+      display: inline;
       margin: 8px;
       padding: 16px;
 }
