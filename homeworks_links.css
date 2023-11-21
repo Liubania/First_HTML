@@ -1,3 +1,11 @@
+header {  
+      margin: 20px;
+      padding: 20px;
+      justify-content: center;
+       background-color:#F5DEB3;
+      font-family: 'Montserrat', sans-serif;
+      font-color: #000080#471919
+       }
 body {
       font-family: 'Montserrat', sans-serif;
       background-color: #e5e5e5;
@@ -21,13 +29,17 @@ h2 {
       padding: 10px;
     }
 h3 {
-      color: #8B0000;
+      color: #fc2b2b;
       margin: 5px;
       padding: 5px;
 }
 p {
-      color: #800000;
+      color: #330000;
     }
+span {
+      style: bold;
+      color: #330000
+}
 .toolbar li {
             display: inbox;
             background-color: #EEE;
