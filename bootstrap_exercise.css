@@ -9,7 +9,7 @@ header {
       padding: 7px;
       }
 body {
-      display: inbox;
+      display: flex;
       justify-content: center;
       font-family: 'Tahoma', sans-serif;
       background-color: Aqua;
