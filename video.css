@@ -11,6 +11,10 @@ body   {
       margin: 20px;
       padding: 20px;
       }  
+box {
+      margin: 10px;
+      padding: 10px;
+}
 h3 { 
       color: #210238;   
 }
