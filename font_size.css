@@ -39,7 +39,8 @@ footer{
       padding: 4px;
      }
  fieldset {
-      display: inbox;
+      display: flex;
+      justify-content: center;
       background-color: #e0fde0;
       border: 1px solid;
       border-color: #548c54;
