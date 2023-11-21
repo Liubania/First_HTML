@@ -1,53 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ro">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator "Experience"</title>
+    <title>Test de aritmetică</title>
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="js_math.css" 
        rel="stylesheet" type="text/css">
 </head>
 
 <body>
-<!--     <video id="background-video" autoplay muted loop playsinline>
-        <source src="https://hmblps.github.io/HTML-CSS-JS-FUNDAMENTALS-IVANO-FRANKIVSK-/indexasdasda.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video> -->
-        <div class="calculator-container">
-        <div class="container">
-        <div class="row mb-3">
-        <div class="col">
-             <input type="number" class="form-control" id="input1" placeholder="ENTER NUMBER">
+       <div class="calculator-container">
+       <div class="container">
+       <div class="row mb-3">
+       <div class="col">
+           <input type="number" class="form-control" id="input1" placeholder="introduceți primul număr ">
         </div>
         </div>
         </div>
         </div>
             <div class="col">
                 <select class="form-select" id="action">
-                    <option disabled selected>CHOOSE ACTION</option>
-                    <option value="add">+</option>
-                    <option value="subtract">-</option>
-                    <option value="multiply">*</option>
-                    <option value="divide">/</option>
+                    <option disabled selected>Selectați o acțiune matematică</option>
+                    <option value="sum"><h5>+</h5></option>
+                    <option value="substract"><h5>-</h5></option>
+                    <option value="multiply"><h5>*</h5></option>
+                    <option value="divide"><h5>/</h5></option>
                 </select>
             </div>
 
             <div class="col">
-                <input type="number" class="form-control" id="input2" placeholder="ENTER NUMBER">
+                <input type="number" class="form-control" id="input2" placeholder="introduceți un alt număr">
             </div>
             <div class="row">
             <div class="col">
             <div class="mt-3 p-3 border"> 
-                    <input type="number" class="form-control" id="result" placeholder="ENTER RESULT">
+                    <input type="number" class="form-control" id="result" placeholder="introduceți rezultatul">
             </div>
             </div>
             </div>
             <div class="col">
-                <button class="btn btn-primary" disabled id="check" onclick="check()">CHECK</button>
+              <button ctype="button" class="btn btn-primary btn-lg" disabled id="check" onclick="check()">verificați corectitudinea calculelor </button>
             </div>
     
-    <div id="nok" style="display: none"> NOT OK </div>
+    <div id="nok" style="display: none"> Îmi pare rău, ați făcut o greșeală </div>
     <script src="js_math.js">
     </script>
 </body>
