@@ -1,5 +1,6 @@
 header {
       font-family: 'Tahoma', sans-serif;
+      justify-content: center;
       background-color: Aquamarine;
       widht: 90%;
       height: 20%; 
@@ -10,7 +11,7 @@ header {
       padding: 7px;
       }
 body {
-      display: flex;
+      display: inbox;
       justify-content: center;
       font-family: 'Tahoma', sans-serif;
       background-color: Aqua;
