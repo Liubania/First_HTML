@@ -20,8 +20,8 @@ body {
    h1 {
       color: RoyalBlue; 
       style: bold;
-      margin: 3px;
-      padding: 3px;
+      margin: 7px;
+      padding: 7px;
       }
    h2 {
       color: DodgerBlue;
@@ -30,28 +30,28 @@ body {
       }
    h3 {
       color: MediumBlue;
-      margin: 6px;
-      padding: 12px;
+      margin: 7px;
+      padding: 7px;
       }
    h4 {
       color: MidnightBlue;
-      margin: 4px;
-      padding: 8px;
+      margin: 7px;
+      padding: 7px;
      }
  fieldset {
       display: inbox;
       background-color: LightSteelBlue;
       border: 1px solid;
       border-color: SlateGray;
-      margin: 10px;
-      padding: 19px;
+      margin: 7px;
+      padding: 7px;
          }
 article {
       display: inbox;
-      margin: 8px;
-      padding: 16px;
+      margin: 7px;
+      padding: 7px;
        }
 footer {
-      margin: 10px;
-      padding: 10px;  
+      margin: 7px;
+      padding: 7px;  
        }
