@@ -1,14 +1,3 @@
-header {
-      font-family: 'Tahoma', sans-serif;
-      display: flex;
-      justify-content: center;
-      background-color: Aquamarine;
-      border: 5px solid;
-      border-style: ridge;
-      border-color: DarkBlue;
-      margin: 7px;
-      padding: 7px;
-      }
 body {
       display: flex;
       justify-content: center;
