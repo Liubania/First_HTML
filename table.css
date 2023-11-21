@@ -1,6 +1,4 @@
 header {
-  widht: 700px;
-  height: 50px;
   margin: 10px;
   padding: 10px;
   border: 1px solid; 
@@ -17,7 +15,7 @@ body {
     font-family: 'Tahoma', sans-serif;
     font-color: CornflowerBlue;
   }
-  table, th, td {
+  table, tr, th, {
     widht: 700px;
     height: 50px;
     margin: 10px;
@@ -25,5 +23,5 @@ body {
     border: 3px solid;
 }
 box {
-    display: inbox;
+    display: flexibil;
 }
