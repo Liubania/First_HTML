@@ -3,19 +3,20 @@
          justify-content: center;
           background-color: #DFFEF4;
           font-family: Tahoma, sans-serif;
-          margin: 10px;
-          padding: 10px;
+          font-color: ForestGreen;
+          margin: 20px;
+          padding: 20px;
   }
   body { 
          display: flex;
          background-color: Aquamarine;    
-         height: 100vh;
-         margin: 10px;
-         padding: 10px;
+         margin: 15px;
+         padding: 15px;
          display: inline;
          align-items: center;
          justify-content: center;
          font-family: Tahoma, sans-serif;
+         font-color: DarkGreen;
         }
  box { 
         display: flex;
@@ -42,15 +43,3 @@
         .btn {
         margin-bottom: 20px;
         }
-h1 {
-        font-color: #9586f1;
-} 
-h4 {
-        font-color: MediumSlateBlue;
-}     
-h5 {
-        font-color: #6253BE;
-} 
-h6 {
-       font-color:  #4e4298;
-}
