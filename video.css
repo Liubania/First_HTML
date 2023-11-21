@@ -1,11 +1,14 @@
 body   {   
-      display: inbox;
+      display: flex;
+      justify-content: center;
       background-color: #f7d5f7;
       font-family: 'Tahoma', sans-serif;
-      font-color: #4B0082;
+      font-color: #210238;
       widht: 100%; 
       height: 100%; 
       border: 3px;
       border-color: #4B0082;
       border-style: inset;
+      margin: 20px;
+      padding: 20px;
       }  
