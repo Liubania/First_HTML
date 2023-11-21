@@ -16,7 +16,7 @@ body {
     font-family: 'Tahoma', sans-serif;
     font-color: CornflowerBlue;
   }
-  table, tr, th, {
+  table, th, td, {
     widht: 700px;
     height: 50px;
     margin: 10px;
