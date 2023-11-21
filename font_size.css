@@ -1,5 +1,6 @@
 header { 
       display: flex;
+      justify-content: center;
       font-family: 'Tahoma', sans-serif;
       background-color: #ccffff;
       border: 5px solid;
@@ -12,7 +13,6 @@ body {
       border: 5px solid;
       border-style: ridge;
       border-color: #7300e6;
-      width: 1000px;
       }
 footer{
       display: inbox;
