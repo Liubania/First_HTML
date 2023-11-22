@@ -1,13 +1,22 @@
+header {
+      font-family; 'Monserrat', sans-serif;
+      font-color: #0000ff;
+      justify-content: center;
+      margin: 20px;
+      padding: 20px;
+}
+
 body {
       display: flex;
       font-family: 'Montserrat', sans-serif;
-      font-color: #800000;
+      font-color: #26367e;
       background-color: #98fae8;
       border: 1px solid;
-      border-color: #8B0000 #8B0000 #8B0000 #000080;
+      border-color: #000080;
       margin: 10px;
       padding: 5px;
      }
+
 fieldset {
       display: inbox;
       margin: 15px;
