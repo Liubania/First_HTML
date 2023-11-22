@@ -1,15 +1,14 @@
 body {
       font-family: 'Montserrat', sans-serif;
+      font-color: #800000;
       background-color: #98fae8;
       border: 1px solid;
       border-color: #8B0000 #8B0000 #8B0000 #000080;
-      p-color: #800000;
       margin: 10px;
       padding: 5px;
      }
 fieldset {
-      width: 60%;
-      height: 50%;
+      display: inbox;
       margin: 15px;
       padding: 15px;
      }
