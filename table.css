@@ -1,6 +1,5 @@
 header {
-  widht: 700px;
-  height: 100px;
+  justify-content: center;
   margin: 10px;
   padding: 10px;
   border: 1px solid; 
@@ -18,8 +17,7 @@ body {
     font-color: CornflowerBlue;
   }
   table, th, td, {
-    widht: 700px;
-    height: 150px;
+    justify-content: center;
     margin: 10px;
     padding: 10px;
     border: 3px solid;
