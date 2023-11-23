@@ -10,8 +10,8 @@
   }
   body { 
          width:95%;
-         display: flex;
-         background-color:#EDFFCA;    
+/*          display: flex; */
+         background-color: #EDFFCA;    
          margin: 15px;
          padding: 15px;
          align-items: center;
