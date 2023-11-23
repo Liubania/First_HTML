@@ -19,19 +19,34 @@
          font-color: DarkGreen;
         }
 
+h1 {
+      color: PantoneGreen;    
+      margin: 5px;
+}
+h3 {
+      color: BottleGreen;
+      margin: 5px;
+}
+h4 {
+      color: CrayolaGreen;         
+      margin: 5px;
+}
+
+  .container {
+       display: inline;
+       justify-content: center;
+       margin: 10px;
+       padding: 10px; 
+        }
+
 /*  div class="calculator-container"
          class="container"
          class="row mb-3"
          class="col" 
          class="btn btn-primary btn-lg"
-         class="form-control" */
-
-  .container {
-    display: inline;
-    justify-content: center;
-    margin: 10px;
-    padding: 10px; 
-        }
+         class="form-control" 
+         class="form-select"
+         class="btn btn-primary btn-lg" */
 
    .form-control,
    .form-select,
