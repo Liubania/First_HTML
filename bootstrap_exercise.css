@@ -1,5 +1,6 @@
 header {  
       display: inline;
+      width: 70%;
       justify-content: center;
       font-family: 'Tahoma', sans-serif;
       background-color: Aqua;
@@ -24,6 +25,7 @@ figure {
       display: flex;
        }
 footer {
+      width: 40%;
       display: inline;
       justify-content: center;
       font-family: 'Tahoma', sans-serif;
