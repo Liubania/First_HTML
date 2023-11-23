@@ -44,23 +44,12 @@ footer {
       margin: 2px;
       padding: 2px;
       }
-   h3 {
-      color: MediumBlue;
-      margin: 7px;
-      padding: 7px;
-      }
-   h4 {
-      color: MidnightBlue;
+  h4 {
+      color:  MediumBlue;
       margin: 7px;
       padding: 7px;
      }
- fieldset {
-      background-color: LightSteelBlue;
-      border: 1px, solid;
-      border-color: SlateGray;
-      margin: 7px;
-      padding: 7px;
-         }
+
 article {
       margin: 7px;
       padding: 7px;
