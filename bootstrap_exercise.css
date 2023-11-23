@@ -1,5 +1,5 @@
 header {  
-      display: flex;
+/*       display: flex; */
       width: 70%;
       justify-content: center;
       font-family: 'Tahoma', sans-serif;
@@ -11,7 +11,7 @@ header {
       padding: 7px;  
       }
 body {
-      display: flex;
+/*       display: flex; */
       justify-content: center;
       font-family: 'Tahoma', sans-serif;
       background-color: #b2ffff;
@@ -21,9 +21,7 @@ body {
       margin: 7px;
       padding: 7px;  
      }
-figure {
-      display: flex;
-       }
+
 footer {
       width: 40%;
       display: inline;
@@ -69,7 +67,7 @@ article {
       padding: 7px;
        }
 box {
-      color: Baby Blue;
+      color: BabyBlue;
       margin: 7px;
       padding: 7px;
 }
