@@ -10,20 +10,33 @@
 </head>
     
 <header>
+    <figure>    
+         <img src="bons.jpg" alt="abacus" 
+          width="300" height="200"> <br>  
+    </figure>
     <h1> Test de aritmetică </h1>
+     <figure>    
+         <img src="calculator.jpg" alt="calculator" 
+          width="300" height="200"> <br>  
+    </figure>
 </header>
 
     <body>
       <box>
-        <h4>Acest scurt test vă va permite să vă testați abilitățile aritmetice. Dacă sunteți pregătit, sunteți binevenit să începeți!<h4>
-        <h5>Pentru a face acest test, trebuie să </h5>
+        <h3>Acest scurt test vă va permite să vă testați abilitățile aritmetice. Dacă sunteți pregătit, sunteți binevenit să începeți!</h3>
+        <h4>Pentru a face acest test, trebuie să </h4>
      <ul>
-         <li><h5> introduceți primul și al doilea număr întreg pozitiv,</h5> 
+         <li>
+             <h4> introduceți primul și al doilea număr întreg pozitiv,</h4> 
          </li>
-         <li><h5> să selectați operația matematică pe care doriți să o efectuați, </h5>
+         <li>
+             <h4> să selectați operația matematică pe care doriți să o efectuați, </h4>
          </li>
-         <li><h5> introduceți rezultatul operației matematice pe care ați efectuat-o.</h5></li>
-         <li><h5> În cele din urmă, faceți clic pe butonul din partea de jos și verificați corectitudinea calculului dvs.</h5>
+         <li>
+             <h4> introduceți rezultatul operației matematice pe care ați efectuat-o. </h4>
+         </li>
+         <li>
+             <h4> În cele din urmă, faceți clic pe butonul din partea de jos și verificați corectitudinea calculului dvs. </h4>
          </li>
       </ul> <br><br>
         <figure>    
@@ -36,14 +49,14 @@
        <div class="container">
        <div class="row mb-3">
        <div class="col">
-           <input type="number" class="form-control" id="input1" placeholder="introduceți primul număr "> 
+           <input type="number" class="form-control" id="input1" placeholder=" introduceți primul număr "> 
         </div>
         </div>
         </div>
         </div> <br><br>
             <div class="col">
                 <select class="form-select" id="action">
-                    <option disabled selected>Selectați o acțiune matematică</option>
+                    <option disabled selected> Selectați o acțiune matematică </option>
                     <option value="sum"><h5>+</h5></option>
                     <option value="substract"><h5>-</h5></option>
                     <option value="multiply"><h5>*</h5></option>
@@ -52,20 +65,20 @@
             </div><br><br>
 
             <div class="col">
-                <input type="number" class="form-control" id="input2" placeholder="introduceți un alt număr">
+                <input type="number" class="form-control" id="input2" placeholder=" introduceți un alt număr ">
             </div>
             <div class="row">
             <div class="col">
             <div class="mt-3 p-3 border"> 
-                    <input type="number" class="form-control" id="result" placeholder="introduceți rezultatul">
+                    <input type="number" class="form-control" id="result" placeholder=" introduceți rezultatul ">
             </div>
             </div>
             </div><br><br>
             <div class="col">
-              <button ctype="button" class="btn btn-primary btn-lg" disabled id="check" onclick="check()">verificați corectitudinea calculelor </button>
+              <button ctype="button" class="btn btn-primary btn-lg" disabled id="check" onclick="check()"> verificați corectitudinea calculelor </button>
             </div><br><br>
     
-    <div id="nok" style="display: none"> <h6> Îmi pare rău, ați făcut o greșeală </h6></div>
+    <div id="nok" style="display: none"> <h5> Îmi pare rău, ați făcut o greșeală &#128533; </h5></div>
     <script src="js_math.js">
     </script>
 </body>
