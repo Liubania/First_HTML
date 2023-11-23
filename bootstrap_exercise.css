@@ -42,11 +42,13 @@ footer {
    h2 {
       color: DodgerBlue;
       margin: 2px;
+      margin-left: 20px;
       padding: 2px;
       }
   h4 {
       color:  MediumBlue;
       margin: 7px;
+      margin-left: 20px;
       padding: 7px;
      }
 
@@ -54,8 +56,9 @@ article {
       margin: 7px;
       padding: 7px;
        }
-box {
+/* box {
       color: BabyBlue;
       margin: 7px;
       padding: 7px;
 }
+ */
