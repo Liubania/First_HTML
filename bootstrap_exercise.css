@@ -10,7 +10,7 @@ header {
       padding: 7px;  
       }
 body {
-/*       display: flex; */
+      display: box; 
       justify-content: center;
       font-family: 'Tahoma', sans-serif;
       background-color: #b2ffff;
