@@ -1,5 +1,5 @@
 header {  
-      display: flex; 
+/*       display: flex;  */
       justify-content: center;
       font-family: 'Tahoma', sans-serif;
       background-color: Aqua;
@@ -10,7 +10,7 @@ header {
       padding: 7px;  
       }
 body {
-      display: box; 
+      display: flex; 
       justify-content: center;
       font-family: 'Tahoma', sans-serif;
       background-color: #b2ffff;
