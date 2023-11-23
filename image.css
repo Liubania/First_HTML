@@ -23,12 +23,16 @@ fieldset {
      }
 
 h1 {
-      font-color:#0000ff;
+      color:#0000ff;
+       margin: 10px;
+      padding: 5px;
 }
 
 h2 {
-      font-color: #26367e;
+      color: #26367e; 
+      margin: 7px;
+      padding: 3px;
 }
 h5 {
-      font-color: #0f1a4d
+      color: #0f1a4d
 }
