@@ -9,7 +9,7 @@
   }
   body { 
          display: flex;
-         background-color: Aquamarine;    
+         background-color:#EDFFCA;    
          margin: 15px;
          padding: 15px;
          display: inline;
@@ -18,29 +18,25 @@
          font-family: Tahoma, sans-serif;
          font-color: DarkGreen;
         }
- box { 
-        display: flex;
- }
 
   .container {
     margin: 20px;
     padding: 10px; 
         }
 
-        .form-control,
-        .form-select,
-        .btn,
+   .form-control,
+   .form-select,
+   .btn,
        {
          width: 200px;
          box-sizing: border-box;
          text-align: center;
-         border: 5px inset #6a5acd;
-         font-family: Tahoma, sans-serif;
-         background: #DFFEF4;
+         border-style: 5px inset; 
+         border-color:  #6a5acd;
+         background-color: #DFFEF4;
          border-radius: 7px;
          padding: 20px;
-        }
-
-        .btn {
-        margin: 20px;
+         margin: 20px; 
+         font-family: Tahoma, sans-serif;
+         font-color: DarkGreen;
         }
