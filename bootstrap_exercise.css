@@ -11,7 +11,7 @@ header {
       padding: 7px;  
       }
 body {
-/*       display: flex; */
+      display: flex;
       justify-content: center;
       font-family: 'Tahoma', sans-serif;
       background-color: #b2ffff;
