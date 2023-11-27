@@ -62,6 +62,7 @@ function check() {
   if (userAnswer == rightAnswer) {
     // alert("Foarte Bine!")
     let mesage = document.getElementById("nok");
+    mesage.style.display="block";
     mesage.style.color="green";
   } else {
     // alert("Îmi pare rău, vă înșelați!");
