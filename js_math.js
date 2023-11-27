@@ -63,14 +63,14 @@ function check() {
     // alert("Foarte Bine!")
     let mesage = document.getElementById("ok");
     mesage.style.display="block";
-    mesage.style.color="green";
+    // mesage.style.color="green";
     document.getElementById("nok").style.display="none";
        
   } else {
     // alert("Îmi pare rău, vă înșelați!");
     let mesage = document.getElementById("nok");
     mesage.style.display="block";
-    mesage.style.color="red";
+    // mesage.style.color="red";
     document.getElementById("ok").style.display="none";
   }
 
