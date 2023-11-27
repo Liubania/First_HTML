@@ -61,13 +61,14 @@ function check() {
 
   if (userAnswer == rightAnswer) {
     // alert("Foarte Bine!")
-    let mesage = document.getElementById("nok");
+    let mesage = document.getElementById("ok");
     mesage.style.display="block";
     mesage.style.color="green";
   } else {
     // alert("Îmi pare rău, vă înșelați!");
-    document.getElementById("nok").style.display ="block";
-     mesage.style.color="red";
+    let mesage = document.getElementById("nok");
+    mesage.style.display="block";
+    mesage.style.color="red";
   }
 
   // document.getElementById("result").value
