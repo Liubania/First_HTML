@@ -64,8 +64,9 @@ function check() {
     let mesage = document.getElementById("nok");
     mesage.style.color="green";
   } else {
-    alert("Îmi pare rău, vă înșelați!");
+    // alert("Îmi pare rău, vă înșelați!");
     document.getElementById("nok").style.display ="block";
+     mesage.style.color="red";
   }
 
   // document.getElementById("result").value
