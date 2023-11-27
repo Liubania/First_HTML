@@ -58,20 +58,16 @@ function check() {
   // }
 
   let userAnswer = document.getElementById("result").value;
-
+  let successMesage = document.getElementById("ok");
+  let failedMesage = document.getElementById("nok");
+  
   if (userAnswer == rightAnswer) {
-    // alert("Foarte Bine!")
-    let mesage = document.getElementById("ok");
-    mesage.style.display="block";
-    // mesage.style.color="green";
-    document.getElementById("nok").style.display="none";
-       
+   successMesage.style.display="block";
+   failedM esage.style.display="none";
+        
   } else {
-    // alert("Îmi pare rău, vă înșelați!");
-    let mesage = document.getElementById("nok");
-    mesage.style.display="block";
-    // mesage.style.color="red";
-    document.getElementById("ok").style.display="none";
+    failedMesage.style.display="block";
+    successMesage.style.display="none";
   }
 
   // document.getElementById("result").value
