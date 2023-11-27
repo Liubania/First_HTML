@@ -58,16 +58,16 @@ function check() {
   // }
 
   let userAnswer = document.getElementById("result").value;
-  let successMesage = document.getElementById("ok");
-  let failedMesage = document.getElementById("nok");
+  let successMessage = document.getElementById("ok");
+  let failedMessage = document.getElementById("nok");
   
   if (userAnswer == rightAnswer) {
-   successMesage.style.display="block";
-   failedM esage.style.display="none";
+   successMessage.style.display="block";
+   failedMessage.style.display="none";
         
   } else {
-    failedMesage.style.display="block";
-    successMesage.style.display="none";
+    failedMessage.style.display="block";
+    successMessage.style.display="none";
   }
  
   // document.getElementById("result").value
