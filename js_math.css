@@ -52,7 +52,7 @@ h4 {
    .form-select,
    .btn,
        {
-         display: flex;
+         display: inline;
          justify-content: center;
          box-sizing: content-box;
          text-align: center;
