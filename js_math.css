@@ -1,5 +1,5 @@
    body {
-         display: flex; 
+         display: box; 
          background-color: Aquamarine;    
          margin: 0 auto;
          padding: 20px;
