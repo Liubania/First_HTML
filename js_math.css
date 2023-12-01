@@ -5,14 +5,14 @@
           background-color: #DFFEF4;
           font-family: Tahoma, sans-serif;
           font-color: ForestGreen;
-          margin: 7px;
-          padding: 7px;
+          margin: 20px;
+          padding: 20px;
   }
   body {
     /*          display: flex; */
          background-color: Aquamarine;    
          margin: 0 auto;
-         padding: 3px;
+         padding: 20px;
          align-items: center;
          justify-content: center;
          font-family: Tahoma, sans-serif;
