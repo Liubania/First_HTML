@@ -54,7 +54,7 @@ h4 {
        {
          display: flex;
          justify-content: center;
-         box-sizing: border-box;
+         box-sizing: content-box;
          text-align: center;
          border-style: 5px inset; 
          border-color:  #6a5acd;
