@@ -67,3 +67,6 @@ button {
 .container {
          display: flex;       
  }
+.box {
+        display: box;
+}
