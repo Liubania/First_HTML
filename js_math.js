@@ -22,6 +22,8 @@ second.value=b;
 
 function check() {
   let action = document.getElementById("action").value;
+  let a=first.value;
+  let b=second.value;
 
   document.getElementById("result").setAttribute("placeholder", a);
 
