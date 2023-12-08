@@ -35,6 +35,7 @@ p   {
 
 .col {
        display: flex;
+       box-sizing: button-box;
        justify-content: center;
        margin: 5px;
        padding: 5px; 
@@ -44,8 +45,7 @@ p   {
 .form-select,
 .btn,
 .a,
-.b,
-         {
+.b     {
          display: flex;
          justify-content: center;
          box-sizing: button-box;
