@@ -45,7 +45,8 @@ p   {
 .form-select,
 .btn,
 .a,
-.b  {
+.b,
+button  {
      display: flex;
      justify-content: center;
      box-sizing: button-box;
@@ -60,13 +61,10 @@ p   {
      font-color: DarkGreen;
         }
 
-button {
-     padding: 14px 10px:
-}
-
 .container {
      display: flex;       
  }
+
 .box {
     display: box;
 }
