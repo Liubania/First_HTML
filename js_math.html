@@ -23,34 +23,30 @@
           width="650" height="450">   
     </figure>
 </header>
-             <h3>Acest scurt test vă va permite să vă testați abilitățile aritmetice.</h3>
-             <h3>Dacă sunteți pregătit, sunteți binevenit să începeți!</h3>
+             <h4>Acest scurt test vă va permite să vă testați abilitățile aritmetice.</h4>
+             <h4>Dacă sunteți pregătit, sunteți binevenit să începeți!</h4>
          <br> 
-            <h4>Pentru a face acest test, trebuie să </h4>
+            <h5>Pentru a face acest test, trebuie să </h5>
          <ul>
-         <li>
-             <h4> introduceți primul și al doilea număr întreg pozitiv,</h4> 
+         <li> <h5> introduceți primul și al doilea număr întreg pozitiv,</h5> 
          </li>
-         <li>
-             <h4> să selectați operația matematică pe care doriți să o efectuați,</h4>
+         <li> <h5> să selectați operația matematică pe care doriți să o efectuați,</h5>
          </li>
-         <li>
-             <h4> introduceți rezultatul operației matematice pe care ați efectuat-o.</h4>
+         <li> <h5> introduceți rezultatul operației matematice pe care ați efectuat-o.</h5>
          </li>
-         <li>
-             <h4> În cele din urmă, faceți clic pe butonul din partea de jos și verificați corectitudinea calculului dvs.</h4>
+         <li> <h5> În cele din urmă, faceți clic pe butonul din partea de jos și verificați corectitudinea calculului dvs.</h5>
          </li>
       </ul>
-          <div class="calculator-container">
-         <div class="container">
-         <div class="row mb-3">
-         <div class="col">
-           <input type="number" class="form-control" id="input1" placeholder=" introduceți primul număr "> 
-           </div>
-           </div>
-           </div>
-           </div> 
-            <div class="col">
+         
+        <div class="col">
+           <input type="number" class="form-control" id="input0" placeholder=" introduceți număr cel mai mare"> 
+        </div>
+
+        <div class="col">
+         <input type="number" class="form-control" id="input00" placeholder=" introduceți număr cel mai mic">
+        </div>
+        
+        <div class="col">
                 <select class="form-select" id="action">
                     <option disabled selected> Selectați o acțiune matematică </option>
                     <option value="sum">+</option>
@@ -58,27 +54,31 @@
                     <option value="multiply">*</option>
                     <option value="divide">/</option>
                 </select>
-            </div>
+        </div>
+                   
+        <div class="calculator-container">
+          <div class="col">
+             <input type="number" class="form-control" id="input1" placeholder=" numărul unu "> 
+          </div>
+           
+           <div class="col">
+             <input type="number" class="form-control" id="input2" placeholder=" numărul doi "> 
+           </div>
+        </div>
+        
+           <div class="mt-3 p-3 border"> 
+             <input type="number" class="form-control" id="result" placeholder=" introduceți rezultatul ">
+           </div>
+          
             <div class="col">
-                <input type="number" class="form-control" id="input2" placeholder=" introduceți un alt număr ">
-            </div>
-            <div class="row">
-            <div class="col">
-            <div class="mt-3 p-3 border"> 
-                <input type="number" class="form-control" id="result" placeholder=" introduceți rezultatul ">
-            </div>
-            </div>
-            </div>
-            <div class="col">
-                 <button type="button" class="btn btn-primary btn-lg" disabled id="check" onclick="check()"> verificați corectitudinea calculelor </button>
+              <button type="button" class="btn" disabled id="check" onclick="check()"> verificați corectitudinea calculelor </button>
             </div>
             <div id="nok" style="display: none; color: red"> <h5> Îmi pare rău, ați făcut o greșeală &#128533; </h5></div>
             <div id="ok" style="display: none; color: green"> <h5> Foarte bine! &#128170; </h5></div>
-<!--         <p class="text-danger">text</p> -->
  
-        <h4> go to home page &#8658; </h4> 
-        <h4> <a href="https://liubania.github.io/First_HTML/homeworks_links.html" target="_blank"> Follow this link </a>
-        </h4>
+        <h5> go to home page &#8658; </h5> 
+        <h5> <a href="https://liubania.github.io/First_HTML/homeworks_links.html" target="_blank"> Follow this link </a>
+        </h5>
             
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
             <script src="js_math.js">
