@@ -64,4 +64,5 @@ button  {
 
 .box {
     display: box;
+    box-sizing: content-box;
 }
