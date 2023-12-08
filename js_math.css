@@ -8,6 +8,7 @@ body {
       font-family: Tahoma, sans-serif;
       font-color: DarkGreen;
         }
+
 header { 
       display: flex;
       justify-content: center;
@@ -65,4 +66,6 @@ button  {
 .box {
     display: box;
     box-sizing: content-box;
+    margin: 0 auto;
+    padding: 5px;
 }
