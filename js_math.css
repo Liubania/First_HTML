@@ -40,7 +40,8 @@ h5 {
    .form-select,
    .btn,
    .a,
-   .b
+   .b,
+   .container
        {
          display:flex;
          justify-content: center;
