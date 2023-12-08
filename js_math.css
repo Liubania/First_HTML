@@ -17,16 +17,16 @@
 
 h1 {
       color: PantoneGreen;    
-      margin: 3px;
+      margin: 5px;
 }
 
 h4 {
       color: CrayolaGreen;         
-      margin: 3px;
+      margin: 5px;
 }
 h5 {
       color: DarkGreen;         
-      margin: 3px;
+      margin: 5px;
 }
 
   .col {
@@ -39,20 +39,22 @@ h5 {
    .form-control,
    .form-select,
    .btn,
+   .a,
+   .b
        {
-         display: inline;
+         display:flex;
          justify-content: center;
          box-sizing: content-box;
          text-align: center;
-         border-style: 5px inset; 
+         border-style: 3px inset; 
          border-color:  #6a5acd;
          background-color: #DFFEF4;
          border-radius: 7px;
-         padding: 24px 40px;
+         padding: 24px 10px;
          margin: 20px; 
          font-family: Tahoma, sans-serif;
          font-color: DarkGreen;
         }
 button {
-  padding: 24px 40px:
+  padding: 24px 10px:
 }
