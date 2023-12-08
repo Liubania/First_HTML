@@ -1,16 +1,7 @@
-let inpmax=document.getElementById("input0");
-let inpmin=document.getElementById("input00");
-let first=document.getElementById("input1");
-let second=document.getElementById("input2");
-
-first.addEventListener ("change",()=>{
-document.getElementById("result").setAttribute("placeholder",first.value)
-
-})
-second.addEventListener ("change",()=>{
-document.getElementById("result").setAttribute("placeholder",second.value)
-
- })
+let max=document.getElementById("input1");
+let min=document.getElementById("input2");
+let a=document.getRandomInt(min, max);
+let b=document.getRandomInt(min, max);
 
 let resultInput=document.getElementById("result");
 resultInput.addEventListener ("change",()=>{
@@ -19,22 +10,18 @@ if (document.getElementById("result").value != null) {
     document.getElementById("check").disabled = false;
   }
 })
-function getRandomInt(inpmin, inpmax) {
-min = Math.ceil(inpmin);
-max = Math.floor(inpmax);
-return Math.floor(Math.random() * (inpmax - inpmin + 1)) + inpmin;
-}
 
-let a=getRandomInt(inpmax,inpmin);
-let b=getRandomInt(inpmax,inpmin);
+function getRandomInt(min, max) {
+min = Math.ceil(min);
+max = Math.floor(max);
+return Math.floor(Math.random() * (max - min + 1)) + min;
+}
 
 first.value=a;
 second.value=b;
 
 function check() {
   let action = document.getElementById("action").value;
-  // let a = document.getElementById("input1").value;
-  // let b = document.getElementById("input2").value;
 
   document.getElementById("result").setAttribute("placeholder", a);
 
@@ -55,26 +42,6 @@ function check() {
     default:
       rightAnswer = "Selectați o acțiune matematică";
   }
-
-  // if (action=="sum"){
-  //  result=Number (a)+Number (b)
-
-  // }
-  // else if (action=="substract") {
-  //      result=Number (a)-Number (b)
-
-  // }
-  // else if (action=="multiply") {
-  //      result=Number (a)Number (b)
-
-  // }
-  // else if (action=="divide") {
-  //      result=Number (a)/Number (b)
-
-  // }
-  // else {
-  //     result="Selectați o acțiune matematică"
-  // }
 
   let userAnswer = document.getElementById("result").value;
   let successMessage = document.getElementById("ok");
