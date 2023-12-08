@@ -1,7 +1,5 @@
-let max=document.getElementById("input1");
-let min=document.getElementById("input2");
-let a=document.getRandomInt(min, max);
-let b=document.getRandomInt(min, max);
+let min=document.getElementById("input1");
+let max=document.getElementById("input2");
 
 let resultInput=document.getElementById("result");
 resultInput.addEventListener ("change",()=>{
@@ -17,7 +15,11 @@ max = Math.floor(max);
 return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
-function generate() {alert("HELO")}
+function generate() {
+
+document.getElementById("a").value = getRandomInt(min.value, max.value);
+document.getElementById("b").value = getRandomInt(min.value, max.value);
+}
 
 first.value=a;
 second.value=b;
