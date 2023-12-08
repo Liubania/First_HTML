@@ -10,43 +10,31 @@
         }
  header { 
           display: flex;
-          align-items: center;
-          justify-content: center;
           background-color: #DFFEF4;
-          font-family: Tahoma, sans-serif;
           font-color: ForestGreen;
           margin: 20px;
-          padding: 20px;
-  }
+   }
 
 h1 {
       color: PantoneGreen;    
       margin: 3px;
 }
-h3 {
-      color: BottleGreen;
-      margin: 3px;
-}
+
 h4 {
       color: CrayolaGreen;         
       margin: 3px;
 }
+h5 {
+      color: DarkGreen;         
+      margin: 3px;
+}
 
-  .container {
+  .col {
        display: flex;
        justify-content: center;
        margin: 10px;
        padding: 10px; 
         }
-
-/*  div class="calculator-container"
-         class="container"
-         class="row mb-3"
-         class="col" 
-         class="btn btn-primary btn-lg"
-         class="form-control" 
-         class="form-select"
-         class="btn btn-primary btn-lg" */
 
    .form-control,
    .form-select,
@@ -67,9 +55,4 @@ h4 {
         }
 button {
   padding: 24px 40px:
-}
-box {
-  flex-basis: calc (100% - 40px) / 3;
-  gap: 20px;
-  flex-wrap: wrap;
 }
