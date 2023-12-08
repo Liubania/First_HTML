@@ -1,4 +1,4 @@
-   body {
+body {
          display: box; 
          background-color: Aquamarine;    
          margin: 0 auto;
@@ -10,6 +10,8 @@
         }
  header { 
           display: flex;
+          justify-content: center;
+          align-items: center;
           background-color: #DFFEF4;
           font-color: ForestGreen;
           margin: 20px;
