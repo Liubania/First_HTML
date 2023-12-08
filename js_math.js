@@ -25,8 +25,6 @@ function check() {
   let a=first.value;
   let b=second.value;
 
-  document.getElementById("result").setAttribute("placeholder", a);
-
   let rightAnswer = undefined;
   switch (action) {
     case "sum":
