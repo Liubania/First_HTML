@@ -24,14 +24,12 @@ h1 {
 
 h4 {
       color: CrayolaGreen;         
-      margin: 3px;
-}
+      }
 
 h5,
 p   {
      color: DarkGreen;         
-     margin: 3px;
-}
+    }
 
 .col {
      display: flex;
