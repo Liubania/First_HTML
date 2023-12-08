@@ -8,7 +8,7 @@ body {
          font-family: Tahoma, sans-serif;
          font-color: DarkGreen;
         }
- header { 
+header { 
           display: flex;
           justify-content: center;
           align-items: center;
@@ -26,23 +26,25 @@ h4 {
       color: CrayolaGreen;         
       margin: 3px;
 }
-h5 {
+
+h5,
+p   {
       color: DarkGreen;         
       margin: 3px;
 }
 
-  .col {
+.col {
        display: flex;
        justify-content: center;
        margin: 5px;
        padding: 5px; 
         }
 
-   .form-control,
-   .form-select,
-   .btn,
-   .a,
-   .b,
+.form-control,
+.form-select,
+.btn,
+.a,
+.b,
          {
          display: flex;
          justify-content: center;
@@ -57,9 +59,11 @@ h5 {
          font-family: Tahoma, sans-serif;
          font-color: DarkGreen;
         }
+
 button {
   padding: 24px 10px:
 }
- .container {
+
+.container {
          display: box;       
  }
