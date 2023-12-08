@@ -1,20 +1,20 @@
 body {
-         display: box; 
-         background-color: Aquamarine;    
-         margin: 0 auto;
-         padding: 10px;
-         align-items: center;
-         justify-content: center;
-         font-family: Tahoma, sans-serif;
-         font-color: DarkGreen;
+      display: box; 
+      background-color: Aquamarine;    
+      margin: 0 auto;
+      padding: 10px;
+      align-items: center;
+      justify-content: center;
+      font-family: Tahoma, sans-serif;
+      font-color: DarkGreen;
         }
 header { 
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          background-color: #DFFEF4;
-          font-color: ForestGreen;
-          margin: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #DFFEF4;
+      font-color: ForestGreen;
+      margin: 20px;
    }
 
 h1 {
@@ -29,44 +29,48 @@ h4 {
 
 h5,
 p   {
-      color: DarkGreen;         
-      margin: 3px;
+     color: DarkGreen;         
+     margin: 3px;
 }
 
 .col {
-       display: flex;
-       box-sizing: button-box;
-       justify-content: center;
-       margin: 5px;
-       padding: 5px; 
+     display: flex;
+     box-sizing: button-box;
+     justify-content: center;
+     margin: 5px;
+     padding: 5px; 
         }
 
 .form-control,
 .form-select,
 .btn,
 .a,
-.b     {
-         display: flex;
-         justify-content: center;
-         box-sizing: button-box;
-         text-align: center;
-         border-style: 3px inset; 
-         border-color:  #6a5acd;
-         background-color: #DFFEF4;
-         border-radius: 7px;
-         padding: 24px 10px;
-         margin: 20px; 
-         font-family: Tahoma, sans-serif;
-         font-color: DarkGreen;
+.b  {
+     display: flex;
+     justify-content: center;
+     box-sizing: button-box;
+     text-align: center;
+     border-style: 3px inset; 
+     border-color:  #6a5acd;
+     background-color: #DFFEF4;
+     border-radius: 7px;
+     padding: 24px 10px;
+     margin: 20px; 
+     font-family: Tahoma, sans-serif;
+     font-color: DarkGreen;
         }
 
 button {
-  padding: 24px 10px:
+     padding: 24px 10px:
 }
 
 .container {
-         display: flex;       
+     display: flex;       
  }
 .box {
-        display: box;
+    display: box;
+    margin: 0 auto;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
 }
